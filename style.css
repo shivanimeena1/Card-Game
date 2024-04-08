@@ -1,0 +1,184 @@
+.background {
+    box-shadow: inset 1px 2px 3px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    filter: brightness(80%);
+}
+.head{
+    position: relative;
+    top: 70px;
+    background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#efd700,#ea8b17,#b77018,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    left: 600px;
+    animation-name: head;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    font-size: 50px;
+    
+}
+
+
+@keyframes head {
+  from {top: 0px; background-color: yellow;}
+  to {top: 80px; background-color:goldenrod;}
+}
+.user1{
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 350px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+     background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#efa300,#ea8b17,#b77018,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation-name: user1;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    
+    
+}
+
+
+@keyframes user1{
+  from {left: 0px; background-color: yellow;}
+  to {right: 350px; background-color:goldenrod;}
+}
+
+
+
+.user2{
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    right: 360px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#ef9300,#ea8b17,#bb4701,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+    animation-name: user2;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    font-size: 50px;
+    
+}
+
+
+@keyframes user2 {
+  from {right: 0px; background-color: yellow;}
+  to {right: 360px; background-color:goldenrod;}
+}
+
+.cards{
+    
+        position: absolute;
+        height: 270px;
+        width:200px;
+        top: 280px;
+        left: 340px;
+        z-index: 5;
+        border: solid 1px gold;
+        
+    
+}
+.cards2{
+    position: absolute;
+    height: 270px;
+    width:200px;
+    top: 280px;
+    left: 990px;
+    z-index: 5;
+    border: solid 1px rgb(255, 230, 0);
+}
+
+.winner{
+    position: absolute;
+    font-size:60px;
+    top: 250px;
+    left: 660px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#ef6e00,#ea8b17,#bb4701,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+}
+
+.result{
+    position: absolute;
+   font-size: 45px;
+    top: 350px;
+    left: 620px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#ef6e00,#ea8b17,#bb4701,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text;
+
+}
+.p1{
+    
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 550px;
+        left: 389px;
+        font-size: 28px;
+        font-family: "Times New Roman", Times, serif;
+        background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#ef6e00,#ea8b17,#bb4701,#952b02);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+        background-clip: text;
+        display: flex;
+}
+.p2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 550px;
+    right: 400px;
+    font-size: 28px;
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(to bottom,#ffcd39,#fde509,#f6ce04,#ef6e00,#ea8b17,#bb4701,#952b02);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    background-clip: text
+}
+.bttn{
+    cursor: pointer;
+    font-size: 25px;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        position: relative;
+        top: 550px;
+        left: 680px;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 0px 0px 14px -7px #f09819;
+        background-image: linear-gradient(45deg, #ff742f 0%, #F09819  51%, #FF512F  100%);
+        transition: 0.5s;
+      background-size: 200% auto;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+}
+.bttn:hover {
+    background-position: right center;
+    border:solid #bb4201;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .bttn:active {
+    transform: scale(0.95);}
+
